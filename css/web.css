@@ -18,7 +18,7 @@ article {
 }
 
 table {
-  padding: 3px
+  padding: 3px;
 }
 
 h1, h2, h3 {
@@ -30,6 +30,7 @@ h1 {
   color: rgb(8,0,128);
   margin-bottom: 0;
 }
+
 header h1+p {
   margin-top: 0;
   font-family: "Playball";
@@ -41,16 +42,6 @@ h2 {
 }
 h3 {
   color: rgb(8,0,128);
-}
-
-nav ul {
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  width: 140px;
-  text-align: center;
 }
 
 a {
@@ -72,11 +63,22 @@ p {
 }
 
 main {
-  padding-top: 350px;
+  padding-top: 100px;
 }
 
 footer {
   text-align: right;
+}
+
+#sidebar {
+  display: inline-block;
+  float:left;
+  margin: 0, 1em, 1em;
+  position: fixed;
+  left: 110px;
+  background-color: white;
+  width: 210px;
+  padding-top: 100px;
 }
 
 #center {
@@ -87,16 +89,21 @@ footer {
 }
 
 #topbar {
+  display: inline-block;
+  float: left;
   position: fixed;
+  left: 110px;
+  background-color: white;
+  padding-left: 10px;
+  width: 820px;
   z-index: 10;
-  background-color: white;
-  width: 600px;
 }
-
-#sidebar {
-  position: fixed;
-  top:308px;
-  z-index: 15;
-  background-color: white;
-  width: 600px;
+#contact {
+  padding: 5px;
+}
+.nav {
+  padding: 10px;
+  font-size: 1.2em;
+  color: rgb(8,0,128);
+  font-weight: bolder;
 }
