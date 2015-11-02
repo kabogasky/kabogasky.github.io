@@ -82,6 +82,9 @@ footer {
 }
 
 #center {
+  display: inline-block;
+  position: absolute;
+  left: 320px;
   width: 600px;
   margin: 0 auto;
   padding: 1px 20px;
