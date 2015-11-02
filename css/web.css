@@ -19,6 +19,15 @@ article {
 
 table {
   padding: 3px;
+  border-top: 1px solid rgb(8,0,128);
+  border-left: 1px solid rgb(8,0,128);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 2px;
+  border-right: 1px solid rgb(8,0,128);
+  border-bottom: 1px solid rgb(8,0,128);
 }
 
 h1, h2, h3 {
@@ -40,6 +49,7 @@ h2 {
   color: rgb(8,0,128);
   margin: 5px;
 }
+
 h3 {
   color: rgb(8,0,128);
 }
@@ -70,23 +80,27 @@ footer {
   text-align: right;
 }
 
+#body {
+  display: block;
+  margin: 0 200px;
+}
+
 #sidebar {
   display: inline-block;
   float:left;
   margin: 0, 1em, 1em;
   position: fixed;
-  left: 110px;
   background-color: white;
   width: 210px;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 #center {
   display: inline-block;
-  position: absolute;
+  position: static;
   left: 320px;
   width: 600px;
-  margin: 0 auto;
+  margin: 0 210px;
   padding: 1px 20px;
   background-color:white;
 }
@@ -95,7 +109,6 @@ footer {
   display: inline-block;
   float: left;
   position: fixed;
-  left: 110px;
   background-color: white;
   padding-left: 10px;
   width: 820px;
@@ -104,6 +117,7 @@ footer {
 #contact {
   padding: 5px;
 }
+
 .nav {
   padding: 10px;
   font-size: 1.2em;
