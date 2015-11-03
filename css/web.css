@@ -19,15 +19,16 @@ article {
 
 table {
   padding: 3px;
-  border-top: 1px solid rgb(8,0,128);
-  border-left: 1px solid rgb(8,0,128);
+  border-top: 2px solid rgb(8,0,128);
+  border-left: 2px solid rgb(8,0,128);
   border-collapse: collapse;
 }
 
-th, td {
-  padding: 2px;
-  border-right: 1px solid rgb(8,0,128);
-  border-bottom: 1px solid rgb(8,0,128);
+
+table, th, td {
+  padding: 4px;
+  border-right: 2px solid rgb(8,0,128);
+  border-bottom: 2px solid rgb(8,0,128);
 }
 
 h1, h2, h3 {
