@@ -1,0 +1,18 @@
+body {
+  color: black;
+  background: transparent;
+  font-size: Npt;
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: none;
+}
+
+@page {
+  margin: .5in;
+}
