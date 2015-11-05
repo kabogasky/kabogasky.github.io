@@ -1,8 +1,25 @@
 body {
   color: black;
   background: transparent;
-  font-size: Npt;
   font-family: serif;
+  font-size: 12pt;
+}
+h1 {
+  font-size: 18pt;
+}
+
+h1, p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 16pt;
+  border-bottom: 1pt solid black;
+}
+
+h3 {
+  font-size: 14pt;
 }
 
 a {
@@ -11,6 +28,33 @@ a {
 
 nav {
   display: none;
+}
+
+table {
+  padding: 3px;
+  border-top: 2px solid rgb(8,0,128);
+  border-left: 2px solid rgb(8,0,128);
+  border-collapse: collapse;
+}
+
+table, th, td {
+  padding: 4px;
+  border-right: 2px solid rgb(8,0,128);
+  border-bottom: 2px solid rgb(8,0,128);
+}
+
+footer {
+  text-align: right;
+}
+
+#contact {
+  position: static;
+  float: left;
+}
+
+#contactfriend {
+   display: inline-block;
+   margin-left: 40px;
 }
 
 @page {

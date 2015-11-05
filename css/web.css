@@ -24,7 +24,6 @@ table {
   border-collapse: collapse;
 }
 
-
 table, th, td {
   padding: 4px;
   border-right: 2px solid rgb(8,0,128);
@@ -81,6 +80,13 @@ footer {
   text-align: right;
 }
 
+nav {
+  padding: 10px;
+  font-size: 1.2em;
+  color: rgb(8,0,128);
+  font-weight: bolder;
+}
+
 #body {
   display: block;
   margin: 0 200px;
@@ -89,7 +95,7 @@ footer {
 #sidebar {
   display: inline-block;
   float:left;
-  margin: 0, 1em, 1em;
+  margin: 0, 5em, 1em;
   position: fixed;
   background-color: white;
   width: 210px;
@@ -115,13 +121,7 @@ footer {
   width: 820px;
   z-index: 10;
 }
-#contact {
-  padding: 5px;
-}
 
-.nav {
-  padding: 10px;
-  font-size: 1.2em;
-  color: rgb(8,0,128);
-  font-weight: bolder;
+#contact {
+  padding: 5px 0 1700px 0;
 }
