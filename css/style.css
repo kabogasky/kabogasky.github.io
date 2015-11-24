@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Norican|Mr+De+Haviland|Comfortaa|Overlock);
+
+body {
+  font-family: sans-serif;
+  background-image: url(../img/symphony/symphony.png);
+  color: #222;
+}
+
+main {
+  padding: 1px 20px;
+  background-color:white;
+  width: 500px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 10px;
+}
+
+article {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border: .33em black solid;
+  max-width: 30%;
+  display: inline-block;
+}
+
+a hover {
+  font-weight: bold;
+}
+
+a after {
+  color: white;
+}
+
+
+header h1 {
+  font-family: Mr De Haviland;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+header p {
+  margin-top: 0;
+  padding-top: 0;
+  display: inline-block;
+}
+
+nav {
+  padding: 0 .25em 0 30px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.nav {
+  padding: .25em;
+  margin-right: 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.nav:last-child {
+  border-right: 0;
+}
+
+.doc {
+  border-radius: 50%
+}
+
+.body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+$(document).ready(function() {
+  $("#my-menu").mmenu();
+  var API = $("#my-menu").data("mmenu");
+
+  $("#menu-button").click(function() {
+    API.open();
+  });
+})
