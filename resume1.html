@@ -5,24 +5,21 @@
     <title>Kara Bogasky</title>
       <link href="css/style.css" rel="stylesheet" media="screen"/>
   </head>
-  <body id="body">
-    <header id="topbar">
-      <h1>Kara Tate Bogasky</h1>
+  <body>
+    <header>
       <div id="sidebar">
-        <button id="menu">Menu</button>
-        <nav id="my-menu">
+        <nav id="menu" class="panel" role="navigation">
           <ul>
-            <li class="nav"><a href="adobe.html">Broadcast Journalism Major</a></li>
-            <li class="nav"><a href="adobe.html">Public Relations Major</a></li>
-            <li class="nav">Art Minor</li>
-              <ul>
-                <li class="nav"><a href="ceramic.html">Ceramics</a></li>
-                <li class="nav"><a href="paint.html">Painting</a></li>
-              </ul>
+            <li class="nav"><a href="commmajors.html">Communications</a></li>
+            <li class="nav"><a href="ceramic.html">Art</a></li>
             <li class="nav"><a href="resume1.html">Resume</a></li>
             <li class="nav"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
+      </div>
+      <div class="wrap push">
+        <a href="#menu" class="menu-link">&#9776;</a>
+        <h1>Kara Tate Bogasky</h1>
       </div>
     </header>
     <div id="center">
@@ -140,5 +137,12 @@
         <p><small>Do not contact me with unsolicited services or offers.</small></p>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/dist/bigslide.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.menu-link').bigSlide();
+        });
+    </script>
   </body>
 </html>

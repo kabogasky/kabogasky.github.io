@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Norican|Mr+De+Haviland|Comfortaa|Overlock);
+@import url(https://fonts.googleapis.com/css?family=Norican);
 
 body {
   font-family: sans-serif;
@@ -9,8 +9,9 @@ body {
 main {
   padding: 1px 20px;
   background-color:white;
-  width: 500px;
+  width: 35em;
   margin: 0 auto;
+  border: .33em rgb(71, 183, 178) solid;
 }
 
 section {
@@ -27,9 +28,22 @@ a {
 }
 
 img {
-  border: .33em black solid;
+  border: .33em rgb(20, 68, 68) solid;
   max-width: 30%;
   display: inline-block;
+}
+
+table {
+  padding: 3px;
+  border-top: 2px solid rgb(20, 68, 68);
+  border-left: 2px solid rgb(20, 68, 68);
+  border-collapse: collapse;
+}
+
+table, th, td {
+  padding: 4px;
+  border-right: 2px solid rgb(20, 68, 68);
+  border-bottom: 2px solid rgb(20, 68, 68);
 }
 
 a hover {
@@ -40,21 +54,19 @@ a after {
   color: white;
 }
 
-
 header h1 {
-  font-family: Mr De Haviland;
+  font-family: Norican, sans-serif;
   display: inline-block;
   margin-left: 30px;
+  color: rgb(71, 183, 178);
 }
 
-header p {
-  margin-top: 0;
-  padding-top: 0;
-  display: inline-block;
+h2 {
+  color: rgb(20, 68, 68);
 }
 
 nav {
-  padding: 0 .25em 0 30px;
+  padding: 1.2em .25em 0 30px;
   font-size: 1.2em;
   font-weight: bolder;
   display: inline-block;
@@ -62,10 +74,7 @@ nav {
 
 .nav {
   padding: .25em;
-  margin-right: 0;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 10px;
+  display: block;
 }
 
 .nav:last-child {
@@ -76,16 +85,40 @@ nav {
   border-radius: 50%
 }
 
-.body {
-  width: 960px;
+#topbar h1 {
   margin: 0 auto;
+  font-size: 5em;
+  text-align: center;
 }
 
-$(document).ready(function() {
-  $("#my-menu").mmenu();
-  var API = $("#my-menu").data("mmenu");
+/* Menu tab */
+.panel {
+    position: fixed;
+    left: -15.625em; /*or width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
 
-  $("#menu-button").click(function() {
-    API.open();
-  });
-})
+.wrap {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.panel {
+    background: #101820;
+}
+
+.panel a {
+    color: #fff;
+}
+
+.menu-link {
+  font-size: 1.75em;
+  padding-right: .25em;
+}
+
+#size {
+    font-size: 5em;
+}
+
+/* end of menu bar */
