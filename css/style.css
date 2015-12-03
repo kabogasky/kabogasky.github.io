@@ -21,16 +21,16 @@ section {
 article {
   margin: 5px;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
+main a {
+  text-decoration: underline;
+}
 
 img {
   border: .33em rgb(20, 68, 68) solid;
-  max-width: 30%;
-  display: inline-block;
 }
 
 table {
@@ -46,12 +46,9 @@ table, th, td {
   border-bottom: 2px solid rgb(20, 68, 68);
 }
 
-a hover {
+a:hover {
   font-weight: bold;
-}
-
-a after {
-  color: white;
+  color: rgb(71, 183, 178);
 }
 
 header h1 {
@@ -69,6 +66,11 @@ nav {
   padding: 1.2em .25em 0 30px;
   font-size: 1.2em;
   font-weight: bolder;
+  display: inline-block;
+}
+
+.staticsize {
+  max-width: 30%;
   display: inline-block;
 }
 
@@ -117,8 +119,18 @@ nav {
   padding-right: .25em;
 }
 
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
 #size {
     font-size: 5em;
 }
+
 
 /* end of menu bar */
