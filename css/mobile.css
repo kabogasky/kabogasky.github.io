@@ -1,0 +1,55 @@
+@media (max-width: 320px){
+
+main {
+  width: 320px;
+  margin: 0 5px;
+}
+
+section {
+  margin: 3px;
+}
+
+article {
+  margin: 2px;
+}
+
+table {
+  padding: 2px;
+}
+
+table, th, td {
+  padding: 2px;
+}
+
+nav {
+  padding: 1.2em .2em 0 10px;
+  font-size: 1.4em;
+}
+
+.nav {
+  padding: .5em;
+  display: block;
+}
+
+.nav:last-child {
+  border-right: 0;
+}
+
+.doc {
+  border-radius: 50%
+}
+
+#noborder img{
+  border: none;
+  width: 2em;
+}
+
+.menu-link {
+  font-size: 1.75em;
+  padding-right: .25em;
+}
+
+#size {
+    font-size: 5em;
+}
+}
