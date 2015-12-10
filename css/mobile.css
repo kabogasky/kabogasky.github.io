@@ -1,4 +1,4 @@
-@media (max-width: 320px){
+@media (max-width: 320px) {
 
 main {
   width: 320px;
@@ -44,10 +44,22 @@ nav {
   width: 2em;
 }
 
+.panel {
+    left: -100%; /*or width of your navigation panel*/
+    width: 100%; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .menu-link {
   font-size: 1.75em;
-  padding-right: .25em;
+  padding-right: .12em;
 }
+
 
 #size {
     font-size: 5em;

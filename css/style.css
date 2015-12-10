@@ -69,6 +69,10 @@ nav {
   display: inline-block;
 }
 
+iframe {
+  border: 2px solid rgb(20, 68, 68);
+}
+
 .staticsize {
   max-width: 30%;
   display: inline-block;
