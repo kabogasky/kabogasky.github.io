@@ -1,8 +1,9 @@
 @media (max-width: 320px) {
 
 main {
-  width: 250px;
+  width: 285px;
   margin: 0 9px;
+  padding: 0 2px;
 }
 
 header h1 {
@@ -15,14 +16,6 @@ section {
 
 article {
   margin: 1px;
-}
-
-table {
-  padding: 1px;
-}
-
-table, th, td {
-  padding: 2px;
 }
 
 nav {
@@ -71,11 +64,12 @@ nav {
   display: none;
 }
 
-#index {
-  padding-top: 60px;
+.staticsize {
+  max-width: 28.5%;
+  display: inline-block;
 }
 
-#size {
-    font-size: 5em;
+#index {
+  padding-top: 60px;
 }
 }
