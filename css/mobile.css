@@ -1,20 +1,24 @@
 @media (max-width: 320px) {
 
 main {
-  width: 320px;
-  margin: 0 5px;
+  width: 250px;
+  margin: 0 9px;
+}
+
+header h1 {
+  margin: 0 0 10px 20px;
 }
 
 section {
-  margin: 3px;
+  margin: 1px;
 }
 
 article {
-  margin: 2px;
+  margin: 1px;
 }
 
 table {
-  padding: 2px;
+  padding: 1px;
 }
 
 table, th, td {
@@ -36,7 +40,7 @@ nav {
 }
 
 .doc {
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 #noborder img{
@@ -45,21 +49,31 @@ nav {
 }
 
 .panel {
-    left: -100%; /*or width of your navigation panel*/
-    width: 100%; /*should match the above value*/
+    left: -320px; /*or width of your navigation panel*/
+    width: 320px; /*should match the above value*/
 }
 
 .wrap {
     position: relative;
-    max-width: 100%;
+    max-width: 320px;
     margin: 0 auto;
 }
 
 .menu-link {
+  position: absolute;
+  top: 0;
+  right: 0;
   font-size: 1.75em;
   padding-right: .12em;
 }
 
+.disappear {
+  display: none;
+}
+
+#index {
+  padding-top: 60px;
+}
 
 #size {
     font-size: 5em;
