@@ -26,12 +26,6 @@
     </header>
     <div id="center">
       <main>
-        <section>
-          <h2>News Writing</h2>
-            <img src="storyhvz.jpeg" alt="storyhvz."/>
-            <img src="storyhealth.jpeg" alt="storyhealth"/>
-            <img src="storycommission.jpeg" alt="storycommission"/>
-        </section>
         <section class="disappear">
           <h2>Videos</h2>
               <iframe width="540" height="303.75" src="https://www.youtube.com/embed/BoslpmLVzGI" frameborder="0" allowfullscreen></iframe>
@@ -43,14 +37,40 @@
         </section>
         <section>
           <h2>Adobe Software</h2>
+          <div id="images">
+            <abbr title="illustrator"><a href="img/infographic.jpg" data-imagelightbox="a"><img src="img/infographic.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="illustrator"><a href="img/ad1.jpg" data-imagelightbox="a"><img src="img/ad1.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/magazine1.jpg" data-imagelightbox="a"><img src="img/magazine1.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/magazine2.jpg" data-imagelightbox="a"><img src="img/magazine2.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/magazine3.jpg" data-imagelightbox="a"><img src="img/magazine3.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/magazine4.jpg" data-imagelightbox="a"><img src="img/magazine4.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/brochure1.jpg" data-imagelightbox="a"><img src="img/brochure1.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="indesign"><a href="img/brochure2.jpg" data-imagelightbox="a"><img src="img/brochure2.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="photoshop"><a href="img/bostonbottles.jpg" data-imagelightbox="a"><img src="img/bostonbottles.jpg" alt="" class="staticsize"/></a></abbr>
+            <abbr title="illustrator"><a href="img/ad2.jpg" data-imagelightbox="a"><img src="img/ad2.jpg" alt="" class="staticsize"/></a></abbr>
+          </div>
+        </section>
+        <section>
+          <h2>News Writing</h2>
+            <div id="images">
+             <abbr title="Humans vs. Zombies"><a href="img/storyhvz1.jpg" data-imagelightbox="a"><img src="img/storyhvz1.jpg" alt="hvz1" class="staticsize"/></a></abbr>
+             <abbr title="Humans vs. Zombies"><a href="img/storyhvz2.jpg" data-imagelightbox="a"><img src="img/storyhvz2.jpg" alt="hvz2" class="staticsize"/></a></abbr>
+             <abbr title="Humans vs. Zombies"><a href="img/storyhvz3.jpg" data-imagelightbox="a"><img src="img/storyhvz3.jpg" alt="hvz3" class="staticsize"/></a></abbr>
+             <abbr title="President Steps Down"><a href="img/storyhealth1.jpg" data-imagelightbox="a"><img src="img/storyhealth1.jpg" alt="health1" class="staticsize"/></a></abbr>
+             <abbr title="President Steps Down"><a href="img/storyhealth2.jpg" data-imagelightbox="a"><img src="img/storyhealth2.jpg" alt="health2" class="staticsize"/></a></abbr>
+             <abbr title="New Laws for New Shops"><a href="img/storycommission1.jpg" data-imagelightbox="a"><img src="img/storycommission1.jpg" alt="commmission1" class="staticsize"/></a></abbr>
+             <abbr title="New Laws for New Shops"><a href="img/storycommission2.jpg" data-imagelightbox="a"><img src="img/storycommission2.jpg" alt="commmission2" class="staticsize"/></a></abbr>
+            </div>
         </section>
       </main>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/dist/bigslide.min.js"></script>
+    <script src="js/dist/imagelightbox.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.menu-link').bigSlide();
+            $('#images a').imageLightbox();
         });
     </script>
   </body>
