@@ -6,10 +6,10 @@ main {
   padding: 0 2px;
 }
 
-header h1 {
-  margin: 0 0 10px 20px;
+h1 {
+  top: -25px;
+  left: 20px;
 }
-
 section {
   margin: 1px;
 }

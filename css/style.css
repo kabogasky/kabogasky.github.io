@@ -59,6 +59,7 @@ h1 {
   position: relative;
   top: -60px;
   left: 35px;
+  height: 0;
   color: rgb(71, 183, 178);
 }
 
