@@ -44,20 +44,6 @@ table, th, td {
   border-bottom: 2px solid rgb(8,0,128);
 }
 
-footer {
-  text-align: right;
-}
-
-#contact {
-  position: static;
-  float: left;
-}
-
-#contactfriend {
-   display: inline-block;
-   margin-left: 40px;
-}
-
 @page {
   margin: .5in;
 }

@@ -1,3 +1,4 @@
+@media (max-width:320px) {
 @import url(https://fonts.googleapis.com/css?family=Playball|Merriweather+Sans:800);
 
 body {
@@ -37,9 +38,8 @@ h1, h2, h3 {
 h1 {
   color: rgb(8,0,128);
   margin: 0;
-  position: relative;
-  height: 30px;
-  width: 200px;
+  display: block;
+  position: none;
   font-family: "Playball";
 }
 
@@ -123,8 +123,4 @@ nav {
 #contact {
   padding: 5px 0 1700px 0;
 }
-
-#index {
-  top: 0;
-  left: 0;
 }
