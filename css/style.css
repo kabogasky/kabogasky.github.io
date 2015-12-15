@@ -71,6 +71,10 @@ h3 {
   padding-left: .5em;
 }
 
+div div {
+  height: 10px;
+}
+
 nav {
   padding: 1.2em .25em 0 30px;
   font-size: 1.2em;
@@ -150,6 +154,4 @@ iframe {
 #size {
     font-size: 5em;
 }
-
-
-/* end of menu bar */
+}

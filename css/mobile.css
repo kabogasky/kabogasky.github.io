@@ -7,9 +7,10 @@ main {
 }
 
 h1 {
-  top: -25px;
-  left: 20px;
+  top: -37px;
+  margin: 0;
 }
+
 section {
   margin: 1px;
 }
@@ -46,20 +47,6 @@ nav {
     width: 320px; /*should match the above value*/
 }
 
-.wrap {
-    position: relative;
-    max-width: 320px;
-    margin: 0 auto;
-}
-
-.menu-link {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 1.75em;
-  padding-right: .12em;
-}
-
 .disappear {
   display: none;
 }
@@ -70,6 +57,12 @@ nav {
 }
 
 #index {
-  padding-top: 60px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+#topbar h1 {
+  font-size: 3em;
 }
 }
