@@ -9,7 +9,6 @@
   </head>
   <body>
     <header>
-      <div id="sidebar">
         <nav id="menu" class="panel" role="navigation">
           <ul>
             <li class="nav"><a href="commmajors.html">Communications</a></li>
@@ -18,13 +17,13 @@
             <li class="nav"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-      </div>
       <div class="wrap push">
         <a href="#menu" class="menu-link">&#9776;</a>
-        <h1>Kara Tate Bogasky</h1>
+        <div>
+          <h1>Kara Tate Bogasky</h1>
+        </div>
       </div>
     </header>
-    <div id="center">
       <main>
         <section class="disappear">
           <h2>Videos</h2>
@@ -37,7 +36,7 @@
         </section>
         <section>
           <h2>Adobe Software</h2>
-          <div id="images">
+          <div class="images">
             <h3>Photoshop</h3>
               <abbr title="photoshop"><a href="img/stkitts.jpg" data-imagelightbox="a"><img src="img/stkitts.jpg" alt="stkitts" class="staticsize"/></a></abbr>
               <abbr title="photoshop"><a href="img/paris.jpg" data-imagelightbox="a"><img src="img/paris.jpg" alt="paris" class="staticsize"/></a></abbr>
@@ -66,7 +65,7 @@
         </section>
         <section>
           <h2>News Writing</h2>
-            <div id="images">
+            <div class="images">
              <abbr title="Humans vs. Zombies"><a href="img/storyhvz1.jpg" data-imagelightbox="a"><img src="img/storyhvz1.jpg" alt="hvz1" class="staticsize"/></a></abbr>
              <abbr title="Humans vs. Zombies"><a href="img/storyhvz2.jpg" data-imagelightbox="a"><img src="img/storyhvz2.jpg" alt="hvz2" class="staticsize"/></a></abbr>
              <abbr title="Humans vs. Zombies"><a href="img/storyhvz3.jpg" data-imagelightbox="a"><img src="img/storyhvz3.jpg" alt="hvz3" class="staticsize"/></a></abbr>
@@ -84,7 +83,7 @@
     <script>
         $(document).ready(function() {
             $('.menu-link').bigSlide();
-            $('#images a').imageLightbox();
+            $('.images a').imageLightbox();
         });
     </script>
   </body>

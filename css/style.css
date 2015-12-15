@@ -21,10 +21,12 @@ section {
 article {
   margin: 5px;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 main a {
   text-decoration: underline;
 }
@@ -51,10 +53,13 @@ a:hover {
   color: rgb(71, 183, 178);
 }
 
-header h1 {
+h1 {
   font-family: Norican, sans-serif;
   display: inline-block;
-  margin-left: 30px;
+  position: relative;
+  top: -60px;
+  left: 35px;
+  height: 0;
   color: rgb(71, 183, 178);
 }
 
@@ -103,6 +108,11 @@ iframe {
 }
 
 /* Menu tab */
+#index {
+  top: -105px;
+  left: 100px;
+}
+
 .panel {
     position: fixed;
     left: -15.625em; /*or width of your navigation panel*/
