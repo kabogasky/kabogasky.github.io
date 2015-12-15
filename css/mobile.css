@@ -62,6 +62,10 @@ nav {
   left: 10px;
 }
 
+#frontimage {
+  right: -15px;
+}
+
 #topbar h1 {
   font-size: 3em;
 }

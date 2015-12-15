@@ -100,9 +100,19 @@ iframe {
   border-right: 0;
 }
 
-#noborder img{
+.noborder img{
   border: none;
-  width: 2em;
+}
+
+#small img {
+  width: 3em;
+}
+
+#frontimage {
+  width: 20em;
+  position: absolute;
+  bottom: -5px;
+  right: 180px;
 }
 
 #topbar h1 {
