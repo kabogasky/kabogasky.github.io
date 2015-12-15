@@ -105,6 +105,7 @@ iframe {
 }
 
 #small img {
+  padding-top: 10px;
   width: 3em;
 }
 
