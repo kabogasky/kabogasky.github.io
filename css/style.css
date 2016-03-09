@@ -110,10 +110,9 @@ iframe {
 }
 
 #frontimage {
-  width: 20em;
   position: absolute;
   bottom: -5px;
-  right: 180px;
+  right: 0px;
 }
 
 #topbar h1 {
