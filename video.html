@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1;"/>
+    <title>Kara Bogasky</title>
+    <link href="css/style.css" rel="stylesheet" media="screen" />
+    <link href="css/mobile.css" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+    <header>
+        <nav id="menu" class="panel" role="navigation">
+          <ul>
+            <li class="nav"><a href="advertising.html">PORTFOLIO</a></li>
+            <li class="nav"><a href="bio.html">BIO</a></li>
+            <li class="nav"><a href="resume1.html">RESUME</a></li>
+            <li class="nav"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      <div class="wrap push">
+        <a href="#menu" class="menu-link">&#9776;</a>
+        <div>
+          <h1>Kara Tate Bogasky</h1>
+        </div>
+      </div>
+    </header>
+      <main>
+        <section>
+          <h2>Videos</h2>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/BoslpmLVzGI" allowfullscreen></iframe>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/zDNlp4D3Kt4" allowfullscreen></iframe>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/Itql8My8gTU" allowfullscreen></iframe>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/WP2ZhxvZKcs" allowfullscreen></iframe>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/Hkuxa1I0jjA" allowfullscreen></iframe>
+            <iframe width="540" height="303" src="https://www.youtube.com/embed/VmpTH1uiG5c" allowfullscreen></iframe>
+        </section>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/dist/bigslide.min.js"></script>
+      <script src="js/dist/imagelightbox.min.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('.menu-link').bigSlide();
+              $('.images a').imageLightbox();
+          });
+      </script>
+  </body>
+</html>
