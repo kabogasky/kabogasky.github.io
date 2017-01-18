@@ -11,10 +11,8 @@ main {
   background-color:rgb(211,211,211);
   width: 36em;
   margin: 1em 1em auto;
-  position: relative;
-  top: -6.5em;
-  left: 12em;
-  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -22,7 +20,7 @@ header {
   background: rgb(30, 153, 154);
 }
 section {
-  margin: 10px;
+  margin: auto;
 }
 
 article {
@@ -64,7 +62,8 @@ h1 {
   font-family: Norican, sans-serif;
   display: inline-block;
   position: relative;
-  top: -2.8em;
+  float: left;
+  top: -4.3em;
   left: 0em;
   height: 0;
   color: black;
@@ -73,6 +72,8 @@ h1 {
 h1 img {
   border: none;
   width: 6em;
+  float: left;
+  top: 2em;
 
 }
 
@@ -89,20 +90,12 @@ div div {
 }
 
 nav {
-  padding: 0em .25em 0 30px;
+  padding: 0em .25em 0 10em;
   font-size: 1.2em;
   font-weight: bolder;
   display: inline-block;
-  position: relative;
-  float: left;
-  left: 10em;
-  top: -7.5em;
-}
-
-nav p {
-  display: inline;
-  position: relative;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 iframe {
@@ -115,6 +108,11 @@ p img {
   position: relative;
   top: .5em;
 }
+
+.images {
+  background-color: white;
+}
+
 .staticsize {
   max-width: 30%;
   display: inline-block;
@@ -123,7 +121,6 @@ p img {
 .nav {
   padding: .25em;
   display: block;
-  z-index: 1;
 }
 
 .nav:last-child {
@@ -194,7 +191,6 @@ p img {
 #size {
     font-size: 5em;
 }
-}
 
 #primary_nav_wrap
 {
@@ -205,7 +201,6 @@ p img {
 {
 	list-style:none;
 	position:relative;
-	float:left;
 	margin:0;
 	padding:0
 
