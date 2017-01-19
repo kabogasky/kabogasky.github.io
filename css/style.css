@@ -109,10 +109,6 @@ p img {
   top: .5em;
 }
 
-.images {
-  background-color: white;
-}
-
 .staticsize {
   max-width: 30%;
   display: inline-block;
