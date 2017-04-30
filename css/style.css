@@ -18,6 +18,9 @@ main {
 header {
   padding-top: 4em;
   background: rgb(120, 120, 120);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 section {
   margin: auto;
@@ -67,6 +70,7 @@ h1 {
   color: white;
   margin-top: 0;
   padding-left: 4em;
+  z-index: 2;
 }
 
 h1 img {
@@ -90,7 +94,7 @@ div div {
 }
 
 nav {
-  padding: 0em .25em 0 10em;
+  padding: 2.8em .25em 0 10em;
   font-size: 1.2em;
   font-weight: bolder;
   display: inline-block;
