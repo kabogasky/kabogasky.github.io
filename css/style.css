@@ -130,6 +130,11 @@ p img {
   border: none;
 }
 
+.smaller {
+  width: 3em;
+
+}
+
 #small img {
   padding-top: 10px;
   width: 3em;
