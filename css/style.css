@@ -130,9 +130,9 @@ p img {
   border: none;
 }
 
-.smaller {
-  width: 3em;
-
+#smaller {
+  width: 10em;
+  margin: 1em 0;
 }
 
 #small img {
@@ -144,6 +144,12 @@ p img {
   position: absolute;
   bottom: -5px;
   right: 0px;
+}
+
+#pfloat {
+  width: 24em;
+  position: relative;
+  float: right;
 }
 
 #topbar h1 {
